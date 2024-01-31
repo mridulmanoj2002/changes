@@ -1,0 +1,15 @@
+/* Category.css */
+
+.add-category-btn {
+    width: 10vw;
+    height: 30px; /* Adjust the height of the button */
+    font-size: 14px; /* Adjust the font size of the button text */
+    margin-right: 0; /* Remove default margin to position the button at the right corner */
+    margin-top: 10px; /* Add some top margin for better spacing */
+  }
+  
+  /* Optional: Add a subtle shadow to the button for a more polished look */
+  .add-category-btn:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  

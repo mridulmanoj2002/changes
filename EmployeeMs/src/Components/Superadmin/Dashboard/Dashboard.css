@@ -1,0 +1,89 @@
+/* Dashboard.css */
+
+/* Sidebar Styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  height: 100%;
+  background-color: #343a40;
+  overflow-y: auto; /* Add a vertical scrollbar if content overflows */
+  z-index: 1000; /* Ensure the sidebar stays above other elements */
+}
+
+.logo-image {
+  width: 100%;
+}
+
+.nav-pills {
+  width: 100%;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 0.75rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #495057;
+}
+
+/* Adjust the size and color of icons */
+.bi-speedometer2,
+.bi-people,
+.bi-columns,
+.bi-power {
+  font-size: 1.25rem;
+  margin-right: 0.5rem;
+  color: #fff;
+}
+
+.ai-columns {
+  font-size: 1.25rem;
+  margin-right: 0.5rem;
+  color: #fff;
+}
+
+/* Main Content Styles */
+.col {
+  padding: 0;
+  margin-left: 18rem;
+}
+
+/* Header Styles */
+.d-flex {
+  justify-content: center;
+  padding: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+.logo-image{
+  height: 9rem;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .sidebar {
+    height: auto;
+    position: relative;
+    /* margin-bottom: 1rem; Add space between sidebar and main content on smaller screens */
+    z-index: 1; /* Ensure the sidebar does not overlap with other elements */
+  }
+  .logo-image{
+    height: 5rem;
+  }
+  .col {
+    margin-left: 0;
+  }
+
+  .nav-link {
+    justify-content: center;
+  }
+}

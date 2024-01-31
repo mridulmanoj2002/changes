@@ -1,0 +1,40 @@
+.leave-application-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.leave-application-form {
+  width: 600px; /* Adjust width as needed */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leave-application-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.leave-application-form form .form-group {
+  margin-bottom: 20px;
+}
+
+.leave-application-form form .form-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.leave-application-form form .btn-primary {
+  background-color: #1890ff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.leave-application-form form .btn-primary:hover {
+  background-color: #40a9ff;
+}

@@ -1,0 +1,29 @@
+.status-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .admins {
+    margin-right: 20px;
+  }
+  
+  .status-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .check-icon {
+    margin-left: 5px;
+  }
+  .pending {
+    color: blue;
+  }
+  
+  .approved {
+    color: green;
+  }
+  
+  .disapproved {
+    color: red;
+  }
+  

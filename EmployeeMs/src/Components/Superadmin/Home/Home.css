@@ -1,0 +1,87 @@
+/* Home.css */
+
+/* Add general styling for the container */
+.container {
+    /* margin: 20px; */
+    background-color: #dddddd;
+    margin-top: -2vh;
+
+  }
+  
+  /* Style for the data cards */
+  .card {
+    background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    /* margin-bottom: 20px; */
+    margin-top: 5vh;
+    width: 20rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for the action buttons */
+  .btn {
+    margin-right: 5px;
+  }
+  
+  /* Example color styles */
+  .btn-success {
+    background-color: #218838;
+    border-color: #218838;
+  }
+  
+  .btn-info {
+    background-color: #138496;
+    border-color: #138496;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+  }
+  
+  /* Typography styles */
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  h4 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  h5 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  /* Responsive styles for small screens */
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Style for the tables */
+  .ant-table {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ant-table:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  

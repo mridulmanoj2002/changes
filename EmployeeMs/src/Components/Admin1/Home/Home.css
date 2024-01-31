@@ -1,0 +1,39 @@
+/* Add these styles to your Home.css file or your preferred stylesheet
+
+.table-container {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.container-fluid{
+  height: 100%;
+}
+.flex-nowrap{
+  height: 100%;
+}
+.ant-table-thead > tr > th {
+  background-color: #1890ff;
+  color: white;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.header {
+  padding: 16px;
+  background-color: #fafafa;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Style for the buttons */
+/* .ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+
+.ant-btn-danger {
+  background-color: red;
+  border-color: red;
+  color: white;
+} */ 

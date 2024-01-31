@@ -1,0 +1,314 @@
+.loginPage{
+    background:url('./Images/employeems.jpg');
+    background: linear-gradient(rgba(11,11,11,0.5),rgba(10,10,10,0.5)),url("./Images/employeems.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+.loginForm{
+background-color: rgba(1,32,93,0.6);
+    color: white;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+  z-index:1000;
+  /* background: inherit; */
+  border-radius: 18px;
+  /* overflow: hidden; */
+}
+ul li :hover{
+    background-color: gray;
+}
+
+.employee_image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.signIncontainer{
+    width: 98.7vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("./Images/employeems.jpg")  no-repeat;
+    background-size: cover;
+  }
+  .SignIn-container {
+    width: 330px;
+    height: 630px;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    z-index:1000;
+    /* background: inherit; */
+    border-radius: 18px;
+    /* overflow: hidden; */
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease-in-out;
+    font-family: 'Roboto', sans-serif;
+  }
+  .signup-link{
+    color: white;
+  }
+  .form-control:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in-out;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .social-media-handles {
+    padding: 1px;
+    margin-left: -1vw;
+    margin-top: -2vh;
+  }
+  
+  .social-media-icon {
+    color: blue;
+    padding: 10px;
+  }
+  
+.radio-box-container {
+    display: flex;
+  }
+  .radio-box-container{
+      margin-left: 1vw;
+  }
+  .radio-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f2f5;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 10px;
+  }
+  
+  .radio-box input[type="radio"] {
+    display: none;
+  }
+  
+  .radio-box input[type="radio"]:checked + .radio1 {
+    background-color: #066cd8;
+    color: #fff;
+  }
+@media screen and (max-width: 700px) {
+
+.loginForm{
+    background-color: rgba(1,32,93,0.6);
+    color: white;
+    width: 80vw;
+    margin-left: 1vw;
+    /* margin-left: -30vw; */
+  }
+}
+.signIncontainer{
+    width: 98.7vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("./Images/employeems.jpg")  no-repeat;
+    background-size: cover;
+  }
+  .SignIn-container {
+    width: 330px;
+    height: 630px;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    z-index:1000;
+    /* background: inherit; */
+    border-radius: 18px;
+    /* overflow: hidden; */
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease-in-out;
+    font-family: 'Roboto', sans-serif;
+  }
+  .signup-link{
+    color: white;
+  }
+  .form-control:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in-out;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .social-media-handles {
+    padding: 1px;
+    margin-left: -1vw;
+    margin-top: -2vh;
+  }
+  
+  .social-media-icon {
+    color: blue;
+    padding: 10px;
+  }
+  
+  .SignInH6 {
+    color: rgb(248, 242, 248);
+    margin-top: 2vh;
+    font-family: 'Roboto', sans-serif;
+  }
+  .radio-box-container {
+    display: flex;
+  }
+  .radio-box-container{
+      margin-left: 1vw;
+  }
+  .radio-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f2f5;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 10px;
+  }
+  
+  .radio-box input[type="radio"] {
+    display: none;
+  }
+  
+  .radio-box input[type="radio"]:checked + .radio1 {
+    background-color: #066cd8;
+    color: #fff;
+  }
+  
+  .box-content {
+    text-align: center;
+  }
+  
+  .radio1{
+    width: 10vw;
+  }
+  .radio1:hover {
+    background-color: #e9ecef;
+  }
+  @media screen and (max-width: 601px) {
+    .radio1{
+      width: 40vw;
+    }
+    
+  }
